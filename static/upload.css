@@ -1,0 +1,358 @@
+/* filepath: /workspaces/codespaces-flask/static/upload.css */
+.upload-page {
+    background-color: #fef2f4; /* Light pink background */
+    min-height: calc(100vh - 80px); /* Adjust based on navbar height */
+    padding: 2rem;
+  }
+
+  .upload-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  #err{
+    color:white; /* This seems out of place, might need adjustment */
+  }
+
+  .upload-box {
+    background: white;
+    border: 2px dashed #dc143c; /* Crimson */
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: border-style 0.3s, background-color 0.3s;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upload-box.drag-over {
+    border-style: solid;
+    background-color: #fff5f7; /* Lighter pink */
+  }
+
+  .upload-content {
+    width: 100%;
+  }
+
+  .upload-box .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .upload-box h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .upload-box p {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .file-input {
+    display: none;
+  }
+
+  .preview-container {
+    display: none; /* Hidden by default */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex; /* Use flex to center image */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .preview-container.active {
+    display: flex; /* Show when active */
+  }
+
+  .preview-container img {
+    max-width: 100%;
+    max-height: 300px; /* Limit preview height */
+    border-radius: 10px;
+    object-fit: contain; /* Ensure image fits well */
+  }
+
+  .remove-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #dc143c; /* Crimson */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px; /* Adjust for better centering */
+  }
+
+  .remove-btn:hover {
+    background: #b01030; /* Darker Crimson */
+  }
+
+  .analyze-btn {
+    background: #dc143c; /* Crimson */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .analyze-btn:hover:not(:disabled) {
+    background: #b01030; /* Darker Crimson */
+  }
+
+  .analyze-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+
+  .spinner {
+    display: none; /* Hidden by default */
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffffff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  .analyzing .spinner {
+    display: block; /* Show when analyzing */
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .results-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    margin-bottom: 2rem;
+  }
+
+  .results-card.active {
+    display: block; /* Show when active */
+  }
+
+  .results-card h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .result-item {
+    margin-bottom: 1.5rem;
+  }
+
+  .result-item .label {
+    display: block;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .score-bar {
+    flex-grow: 1;
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .score-fill {
+    height: 100%;
+    background: #dc143c; /* Crimson */
+    width: 0%; /* Start at 0 */
+    transition: width 1s ease-out;
+  }
+
+  .score-number {
+    font-weight: bold;
+    color: #333;
+    min-width: 4rem; /* Ensure space for percentage */
+    text-align: right;
+  }
+
+  .conditions-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .conditions-list li {
+    background: #f8f8f8;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  .recommendations {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Chatbot Styles */
+  .chat-container {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem; /* Space above chat */
+  }
+
+  .chat-container h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .chat-messages {
+    max-height: 350px; /* Limit chat height */
+    overflow-y: auto; /* Enable scrolling */
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #eee; /* Subtle border */
+  }
+
+  .message {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message:last-child {
+    margin-bottom: 0;
+  }
+
+  .message.user {
+    align-items: flex-end;
+  }
+
+  .message.assistant {
+    align-items: flex-start;
+  }
+
+  .message-content {
+    padding: 0.8rem 1.2rem;
+    border-radius: 18px;
+    max-width: 80%;
+    line-height: 1.4;
+    word-wrap: break-word; /* Ensure long words wrap */
+  }
+
+  .message.user .message-content {
+    background: #dc143c; /* Crimson */
+    color: white;
+    border-bottom-right-radius: 4px; /* Tail effect */
+  }
+
+  .message.assistant .message-content {
+    background: white;
+    color: #333;
+    border-bottom-left-radius: 4px; /* Tail effect */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style for bullet points inside assistant messages */
+  .message.assistant .message-content ul,
+  .message.assistant .message-content ol {
+      margin-left: 1.2rem; /* Indent lists */
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+  .message.assistant .message-content li {
+      margin-bottom: 0.3rem;
+  }
+  .message.assistant .message-content div { /* Treat divs like paragraphs */
+      margin-bottom: 0.5rem;
+  }
+   .message.assistant .message-content div:last-child {
+      margin-bottom: 0;
+  }
+
+
+  .chat-input {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .chat-input input {
+    flex: 1;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .chat-input input:focus {
+    border-color: #dc143c; /* Crimson */
+  }
+
+  .chat-input button {
+    background: #dc143c; /* Crimson */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .chat-input button:hover {
+    background: #b01030; /* Darker Crimson */
+  }
+
+  @media (max-width: 768px) {
+    .upload-container {
+      padding: 1rem;
+    }
+
+    .upload-box {
+      padding: 1.5rem;
+    }
+
+    .message-content {
+      max-width: 90%; /* Allow slightly wider messages on smaller screens */
+    }
+  }

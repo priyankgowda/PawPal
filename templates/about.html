@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About - PawPal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Removed link to non-existent about.css -->
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <span class="paw-icon">🐾</span>
+        <span class="brand-text">PawPal</span>
+      </div>
+      <div class="nav-links">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('page2') }}">Check your furs health</a>
+      </div>
+    </nav>
+    <main class="about-page">
+      <section class="hero">
+        <h1>Understanding Pet Fur Health</h1>
+        <p class="subtitle">Early detection and prevention of fur-related health issues</p>
+      </section>
+
+      <section class="content-section">
+        <h2>Common Fur Changes & Health Indicators</h2>
+        <div class="grid-container">
+          <div class="info-card">
+            <h3>Texture Changes</h3>
+            <ul>
+              <li>Dry and brittle fur - Could indicate nutritional deficiencies</li>
+              <li>Greasy coat - Might suggest hormonal imbalances</li>
+              <li>Matted fur - Can lead to skin infections if untreated</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Color Changes</h3>
+            <ul>
+              <li>Reddish-brown staining - May indicate excessive licking</li>
+              <li>Patchy coloration - Could be a sign of fungal infections</li>
+              <li>Dull coat - Often relates to dietary issues</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Hair Loss Patterns</h3>
+            <ul>
+              <li>Circular patches - Common sign of ringworm</li>
+              <li>Symmetrical loss - May indicate hormonal issues</li>
+              <li>Irregular patches - Could be due to allergies or parasites</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2>Prevention & Care Tips</h2>
+        <div class="care-tips">
+          <div class="tip">
+            <h3>Regular Grooming</h3>
+            <p>Brush your pet's fur regularly to prevent matting and detect early signs of skin issues. This also helps distribute natural oils throughout the coat.</p>
+          </div>
+          <div class="tip">
+            <h3>Proper Nutrition</h3>
+            <p>Ensure a balanced diet rich in essential fatty acids, proteins, and vitamins to maintain healthy fur and skin.</p>
+          </div>
+          <div class="tip">
+            <h3>Regular Check-ups</h3>
+            <p>Schedule regular veterinary visits and use our fur health checker tool for early detection of potential issues.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section team-section">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-photo">👨‍💻</div>
+            <h3>Manoj BS</h3>
+            <p>Project Lead & Developer</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo">👩‍💻</div>
+            <h3>Prakruthi</h3>
+            <p>Research & Development</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo">👨‍💻</div>
+            <h3>Vikas H N</h3>
+            <p>AI & Implementation</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section mission-section">
+        <h2>Our Mission</h2>
+        <p>We are committed to improving pet health through technology and education. Our AI-powered tool helps pet owners identify potential health issues early, leading to better outcomes for our furry friends.</p>
+      </section>
+    </main>
+  </body>
+</html>

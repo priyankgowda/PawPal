@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PawPal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script type="module" src="{{ url_for('static', filename='upload.js') }}"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <span class="paw-icon">🐾</span>
+        <span class="brand-text">PawPal</span>
+      </div>
+      <div class="nav-links">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('page2') }}">Check your furs health</a>
+      </div>
+    </nav>
+    <main>
+      <h1>Best help for your fur!</h1>
+      <div class="image-grid">
+        <img src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?w=500&q=80" alt="Dog with ball" class="grid-image">
+        <img src="https://images.unsplash.com/photo-1612536057832-2ff7ead58194?w=500&q=80" alt="Close up of dog" class="grid-image">
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=500&q=80" alt="Dog on trail" class="grid-image">
+        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=500&q=80" alt="White dog" class="grid-image">
+        <div class="project-card">
+          <h3>A PROJECT FROM<br>GREAT MINDS</h3>
+          <p>CHECK FURS HEALTH</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=500&q=80" alt="Dog portrait" class="grid-image">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=80" alt="Happy dog" class="grid-image">
+        <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=500&q=80" alt="Puppy" class="grid-image">
+      </div>
+      <button onclick="window.location.href='{{ url_for('page2'); }}';" class="learn-more-btn">Learn more →</button>
+    </main>
+  </body>
+</html>
