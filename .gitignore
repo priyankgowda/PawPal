@@ -14,7 +14,7 @@ env.bak
 venv.bak
 
 # Large files (consider Git LFS for these if needed)
-kaggle_output1/best_model.pth
+
 # static/uploads/
 
 # VS Code
