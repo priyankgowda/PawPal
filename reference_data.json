@@ -1,0 +1,122 @@
+{
+  "alopecia.png": {
+    "name": "Alopecia",
+    "description": "Hair loss in dogs, which can be caused by various factors including parasites, allergies, hormonal imbalances, or stress.",
+    "precautions": "Identify and treat the underlying cause. Consult a vet for diagnosis. Medicated shampoos or topical treatments may help. Ensure a balanced diet."
+  },
+  "Canine Atopic Dermatitis.png": {
+    "name": "Canine Atopic Dermatitis",
+    "description": "An allergic skin disease causing chronic itching, often triggered by environmental allergens like pollen, mold spores, or dust mites.",
+    "precautions": "Minimize allergen exposure. Use vet-prescribed antihistamines or immunotherapy. Regular bathing with hypoallergenic shampoos can soothe skin. Omega-3 fatty acid supplements may help."
+  },
+  "Contact Allergies.png": {
+    "name": "Contact Allergies",
+    "description": "Skin reaction caused by direct contact with an allergen, such as certain plants, chemicals in shampoos or bedding, or materials like plastic or rubber.",
+    "precautions": "Identify and avoid the specific allergen. Wash the affected area gently. Topical corticosteroids or antihistamines may be prescribed by a vet."
+  },
+  "dermatitis.jpeg": {
+    "name": "Dermatitis (General)",
+    "description": "General inflammation of the skin, which can manifest as redness, itching, swelling, or lesions. Can have many causes.",
+    "precautions": "Determine the specific type and cause with a vet. Treatment varies widely based on the cause (e.g., antibiotics for bacterial infection, antifungals for yeast)."
+  },
+  "dermatitis.jpg": {
+    "name": "Dermatitis (General)",
+    "description": "General inflammation of the skin, which can manifest as redness, itching, swelling, or lesions. Can have many causes.",
+    "precautions": "Determine the specific type and cause with a vet. Treatment varies widely based on the cause (e.g., antibiotics for bacterial infection, antifungals for yeast)."
+  },
+  "dermatitis.png": {
+    "name": "Dermatitis (General)",
+    "description": "General inflammation of the skin, which can manifest as redness, itching, swelling, or lesions. Can have many causes.",
+    "precautions": "Determine the specific type and cause with a vet. Treatment varies widely based on the cause (e.g., antibiotics for bacterial infection, antifungals for yeast)."
+  },
+  "dermatitis1.png": {
+    "name": "Dermatitis (General)",
+    "description": "General inflammation of the skin, which can manifest as redness, itching, swelling, or lesions. Can have many causes.",
+    "precautions": "Determine the specific type and cause with a vet. Treatment varies widely based on the cause (e.g., antibiotics for bacterial infection, antifungals for yeast)."
+  },
+  "ear infections.png": {
+    "name": "Ear Infections (Otitis Externa)",
+    "description": "Inflammation or infection of the external ear canal, often caused by bacteria, yeast, allergies, or ear mites. Symptoms include head shaking, scratching, odor, and discharge.",
+    "precautions": "Keep ears clean and dry, especially after swimming or bathing. Treat underlying allergies. Use vet-prescribed ear cleaners and medications."
+  },
+  "Folliculitis.jpg": {
+    "name": "Folliculitis",
+    "description": "Inflammation of the hair follicles, often due to bacterial infection. Appears as small pimples, bumps, or scabs on the skin.",
+    "precautions": "Keep skin clean. Use antibacterial shampoos or wipes as directed by a vet. Oral antibiotics may be necessary for deeper infections."
+  },
+  "hot spots.jpeg": {
+    "name": "Hot Spots (Acute Moist Dermatitis)",
+    "description": "Localized areas of skin inflammation and bacterial infection that appear suddenly and can worsen rapidly. Often triggered by allergies, insect bites, or excessive licking.",
+    "precautions": "Clip hair around the area, clean gently with antiseptic solution, and apply vet-prescribed topical medication. Prevent licking (e-collar). Address underlying cause."
+  },
+  "Immune-Mediated Diseases.jpeg": {
+    "name": "Immune-Mediated Skin Disease",
+    "description": "Conditions where the dog's immune system mistakenly attacks parts of the skin, leading to various lesions, ulcers, or crusting (e.g., Pemphigus).",
+    "precautions": "Requires veterinary diagnosis (often biopsy). Treatment usually involves immunosuppressive drugs prescribed by a vet. Avoid triggers if known."
+  },
+  "lick_granuloma.jpg": {
+    "name": "Lick Granuloma (Acral Lick Dermatitis)",
+    "description": "A skin lesion, typically on the lower leg, caused by chronic, compulsive licking. Often linked to boredom, stress, anxiety, or underlying pain/allergy.",
+    "precautions": "Address the underlying cause (physical or psychological). Prevent licking (e-collar, bandages). Behavior modification, medication, or laser therapy may be needed. Consult a vet and possibly a behaviorist."
+  },
+  "mange.png": {
+    "name": "Mange (Demodectic or Sarcoptic)",
+    "description": "Skin disease caused by mites. Demodectic mange is common in puppies; Sarcoptic mange (scabies) is contagious (including to humans) and very itchy.",
+    "precautions": "Veterinary diagnosis is crucial to identify the type of mite. Treatment involves specific antiparasitic medications (dips, spot-ons, oral). Isolate dogs with Sarcoptic mange."
+  },
+  "Mange1.png": {
+    "name": "Mange (Demodectic or Sarcoptic)",
+    "description": "Skin disease caused by mites. Demodectic mange is common in puppies; Sarcoptic mange (scabies) is contagious (including to humans) and very itchy.",
+    "precautions": "Veterinary diagnosis is crucial to identify the type of mite. Treatment involves specific antiparasitic medications (dips, spot-ons, oral). Isolate dogs with Sarcoptic mange."
+  },
+  "Pyoderma.jpg": {
+    "name": "Pyoderma",
+    "description": "A bacterial skin infection, often secondary to another condition like allergies or parasites. Can be superficial or deep, causing pus-filled bumps, crusts, and hair loss.",
+    "precautions": "Treat with vet-prescribed antibiotics (topical or oral). Use antibacterial shampoos. Address the underlying cause to prevent recurrence."
+  },
+  "pyoderma.png": {
+    "name": "Pyoderma",
+    "description": "A bacterial skin infection, often secondary to another condition like allergies or parasites. Can be superficial or deep, causing pus-filled bumps, crusts, and hair loss.",
+    "precautions": "Treat with vet-prescribed antibiotics (topical or oral). Use antibacterial shampoos. Address the underlying cause to prevent recurrence."
+  },
+  "ringworm.jpeg": {
+    "name": "Ringworm (Dermatophytosis)",
+    "description": "A fungal infection of the skin, hair, and nails (not caused by a worm). Causes circular patches of hair loss, scaling, and sometimes redness. Contagious to other animals and humans.",
+    "precautions": "Isolate infected animals. Treat with vet-prescribed antifungal medications (topical and/or oral). Disinfect environment thoroughly (bedding, grooming tools)."
+  },
+  "ringworm.png": {
+    "name": "Ringworm (Dermatophytosis)",
+    "description": "A fungal infection of the skin, hair, and nails (not caused by a worm). Causes circular patches of hair loss, scaling, and sometimes redness. Contagious to other animals and humans.",
+    "precautions": "Isolate infected animals. Treat with vet-prescribed antifungal medications (topical and/or oral). Disinfect environment thoroughly (bedding, grooming tools)."
+  },
+  "Seborrhea.png": {
+    "name": "Seborrhea",
+    "description": "A condition causing flaky skin (dandruff) and sometimes greasiness. Can be primary (genetic) or secondary to other issues like allergies or hormonal problems.",
+    "precautions": "Use medicated shampoos designed for seborrhea. Treat underlying causes if secondary. Omega-3 supplements may help. Consult a vet for diagnosis."
+  },
+  "seborrhea1.png": {
+    "name": "Seborrhea",
+    "description": "A condition causing flaky skin (dandruff) and sometimes greasiness. Can be primary (genetic) or secondary to other issues like allergies or hormonal problems.",
+    "precautions": "Use medicated shampoos designed for seborrhea. Treat underlying causes if secondary. Omega-3 supplements may help. Consult a vet for diagnosis."
+  },
+  "Skin Tumors.png": {
+    "name": "Skin Tumors",
+    "description": "Abnormal growths on the skin, which can be benign (like warts or cysts) or malignant (cancerous, like mast cell tumors or melanoma).",
+    "precautions": "Any new lump or bump should be examined by a vet. Diagnosis often requires biopsy or fine-needle aspirate. Treatment depends on the type of tumor (surgery, chemotherapy, etc.)."
+  },
+  "Ticks.png": {
+    "name": "Ticks / Tick Bites",
+    "description": "Parasites that attach to the skin and feed on blood. Can transmit diseases like Lyme disease, Ehrlichiosis, and Rocky Mountain Spotted Fever.",
+    "precautions": "Use regular tick prevention (spot-ons, collars, oral medication). Check dog thoroughly after walks, especially in wooded or grassy areas. Remove ticks promptly and carefully using tweezers. Monitor bite site for irritation or infection."
+  },
+  "Yeast Infections.png": {
+    "name": "Yeast Infection (Malassezia Dermatitis)",
+    "description": "Overgrowth of yeast normally found on the skin, often triggered by allergies or moisture. Causes itching, redness, greasy skin, hair loss, and a distinct odor.",
+    "precautions": "Treat with vet-prescribed antifungal shampoos, wipes, or medications (topical/oral). Keep skin dry. Manage underlying allergies."
+  },
+  "yeast-infection.png": {
+    "name": "Yeast Infection (Malassezia Dermatitis)",
+    "description": "Overgrowth of yeast normally found on the skin, often triggered by allergies or moisture. Causes itching, redness, greasy skin, hair loss, and a distinct odor.",
+    "precautions": "Treat with vet-prescribed antifungal shampoos, wipes, or medications (topical/oral). Keep skin dry. Manage underlying allergies."
+  }
+}

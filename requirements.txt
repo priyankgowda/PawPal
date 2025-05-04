@@ -1,11 +1,9 @@
-Flask==2.3.2
-tensorflow
-scikit-learn
-opencv-python-headless
-joblib
-numpy
+Flask
+Werkzeug
 torch
 torchvision
 Pillow
-google-generativeai
+numpy
 python-dotenv
+google-generativeai
+ImageHash
